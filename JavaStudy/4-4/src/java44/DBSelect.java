@@ -18,7 +18,6 @@ import java.sql.Statement;
  * 画像名はDBSelect.pngとして、4-4フォルダの中に入れ、これまでと同様に提出してください。
  *
  */
-
 public class DBSelect {
 
     /** ドライバーのクラス名 */
