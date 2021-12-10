@@ -35,7 +35,6 @@ public class EmployeeController extends HttpServlet {
             EmployeeBean returndata = employeeService.search(id, password);
             // 問④ nullの部分に適切な引数をセットする。
             request.setAttribute("EmployeeBean", returndata);
-            System.out.println(returndata);
 
         } catch (Exception e) {
             e.printStackTrace();
